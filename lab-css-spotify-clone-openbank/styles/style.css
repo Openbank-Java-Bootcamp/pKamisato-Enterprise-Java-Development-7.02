@@ -1,0 +1,131 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  position: fixed;
+  background-color: #fff;
+  width: 98%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  display: inline;
+  padding-left: 20px;
+}
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 30px;
+}
+
+.logo {
+  height: 80px;
+}
+
+.header {
+  color: #fff;
+  font-size: 50px;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 250px;
+  text-align: center;
+  border-top: 100px;
+}
+
+.middle-title {
+  padding-top: 50px;
+  font-size: 50px;
+  text-decoration-line: underline;
+  text-decoration-color: #00b172;
+  text-align: center;
+}
+.middle-subtitle {
+  font-size: 40px;
+  color: #00b172;
+  padding-bottom: 50px;
+}
+
+.middle-p {
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 60px;
+}
+
+.icon {
+  height: 200px;
+}
+
+row {
+  margin: 0 -5px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  padding: 16px;
+  text-align: center;
+}
+.last-card-title {
+  padding-bottom: 20px;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #fff;
+  line-height: 15pt;
+}
+
+.last {
+  background-color: #00b172;
+}
+
+.row-last {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.column-last-1 {
+  font-size: 28px;
+  color: #fff;
+  padding: 30px;
+}
+
+.spotify-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.column-last-2 {
+  padding: 0;
+  align-items: center;
+}
+.app {
+  height: 600px;
+}
+.card-last-1 {
+  padding-left: 100px;
+}
+.card-last-3 {
+  padding-right: 100px;
+}
